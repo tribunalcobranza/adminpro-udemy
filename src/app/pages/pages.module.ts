@@ -8,6 +8,8 @@ import { SharedModule } from '../shared/shared.module';
 
 // temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
+import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
+import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
 
 import { FormsModule } from '@angular/forms';
 
@@ -22,7 +24,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 
 
-import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
+
 
 @NgModule({
     declarations: [
@@ -32,6 +34,7 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
         Graficas1Component,
         IncrementadorComponent,
         GraficoDonaComponent,
+        AccoutSettingsComponent,
     ],
     exports: [
         DashboardComponent,
