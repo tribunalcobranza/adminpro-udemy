@@ -10,6 +10,9 @@ import { SharedModule } from '../shared/shared.module';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
 import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
+
 
 import { FormsModule } from '@angular/forms';
 
@@ -35,6 +38,8 @@ import { Graficas1Component } from './graficas1/graficas1.component';
         IncrementadorComponent,
         GraficoDonaComponent,
         AccoutSettingsComponent,
+        PromesasComponent,
+        RxjsComponent,
     ],
     exports: [
         DashboardComponent,
